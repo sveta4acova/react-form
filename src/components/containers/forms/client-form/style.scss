@@ -1,0 +1,21 @@
+@import '../../../../config/utils';
+
+.ClientForm {
+  padding: 1rem 0;
+
+  &__caption {
+    margin-bottom: 1rem;
+  }
+
+  &__group {
+    @include flexContainer(center);
+
+    &:not(:last-child) {
+      margin-bottom: .5rem;
+    }
+  }
+
+  label {
+    padding-left: 1rem;
+  }
+}

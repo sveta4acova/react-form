@@ -1,0 +1,20 @@
+@import '../../../config/utils';
+
+.Form {
+  &__container {
+
+  }
+
+  &__group {
+    @include flexContainer(center);
+    padding: .5rem 0;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $grayLight;
+    }
+  }
+
+  sup {
+    color: $red;
+  }
+}

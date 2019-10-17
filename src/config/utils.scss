@@ -1,0 +1,12 @@
+$gray: #5a6268;
+$grayLight: lighten($gray, 50%);
+$orange: #e0a800;
+$green: #28a745;
+$red: #c82333;
+
+@mixin flexContainer($align-items: flex-start, $justify-content: flex-start, $direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}
