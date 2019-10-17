@@ -95,7 +95,6 @@ class Registration extends React.Component {
     const {
       registration: { currentStep, allSteps },
     } = this.props;
-    console.log(this.props.registration);
 
     return (
       <Content
