@@ -25,7 +25,7 @@ let ClientForm = props => {
           name="ownership"
           component="input"
           type="radio"
-          value="Индивидуальный предприниматель"
+          value={clientTypes.entrepreneur}
           id="entrepreneur"
         />
         <label htmlFor="entrepreneur">{clientTypes.entrepreneur}</label>
